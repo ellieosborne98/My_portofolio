@@ -1,0 +1,73 @@
+.testimonial-section {
+  height: auto;
+}
+.section-title h5 {
+  text-align: center;
+}
+.line {
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #f49f0a;
+}
+.content-card {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: black;
+  box-shadow: 17px 3px 24px -8px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 17px 3px 24px -8px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 17px 3px 24px -8px rgba(0, 0, 0, 0.44);
+}
+.content-card:hover {
+  background-color: #f49f0a;
+  color: white;
+  -webkit-box-shadow: -5px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  transition-duration: 500ms;
+}
+.content-card img {
+  height: 80px;
+  width: 80px;
+  border-radius: 90px;
+  object-fit: cover;
+  border: 3px solid rgba(2, 28, 77, 0.438);
+}
+.name {
+  color: #f49f0a;
+  padding: 5px;
+}
+.load-more-button {
+  background-color: #f49f0a;
+  width: 15%;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.load-more-button:hover {
+  background-color: rgba(2, 28, 77, 0.438);
+  width: 15%;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
